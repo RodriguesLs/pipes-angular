@@ -14,7 +14,7 @@ export class NativePipesComponent implements OnInit {
   ngOnInit() {
 
     this.car = {
-      type: 'passeio',
+      type: 'passeio do carro doido',
       price: 44455.565,
       date: new Date(),
       rating: 4.5654,
