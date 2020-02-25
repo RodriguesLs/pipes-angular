@@ -21,4 +21,8 @@ export class PurePipeComponent implements OnInit {
     ]
   }
 
+  addCourse(value){
+    this.books.push(value);
+  }
+
 }
