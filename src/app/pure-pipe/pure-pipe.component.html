@@ -1,0 +1,10 @@
+<p>pure-pipe works!</p>
+
+<input type="text" #newValue [(ngModel)]="filter">
+
+
+<ul>
+  <li *ngFor='let book of books | pipePuro:filter'>
+    {{ book }}
+  </li>
+</ul>
